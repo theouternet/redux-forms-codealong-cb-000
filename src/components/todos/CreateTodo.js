@@ -33,6 +33,8 @@ class CreateTodo extends Component {
         {this.state.text}
         </div>
       )
-  
+  }
+}
+
  
 export default CreateTodo;
