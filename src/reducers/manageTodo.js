@@ -9,11 +9,9 @@ switch (action.type) {
       state.todos.concat(action.payload.text) });
       return { todos: 
       state.todos.concat(action.payload.text) };
-      return { todos: 
-      state.todos.concat(action.payload.text) };
-    })
+      
+      default:
+      return state;
+      
 }
-
-
-  return state;
 }
